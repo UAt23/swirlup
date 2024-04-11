@@ -2,8 +2,10 @@
 :root {
   --background: hsla(0, 0%, 100%, 1);
   --fill: hsla(0, 0%, 96%, 1);
+  --dark-fill: hsla(55, 41%, 4%, 0.9);
   --stroke-weak: hsla(52, 37%, 80%, 1);
   --stroke-strong: hsla(53, 30%, 52%, 1);
+  --stroke-dark-weak: hsla(55, 41%, 4%, 0.15);
   --text-weak: hsla(56, 34%, 32%, 1);
   --text-strong: hsla(55, 41%, 16%, 1);
   --brand: hsla(53, 100%, 52%, 1);
@@ -26,6 +28,7 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   color: var(--text-strong);
+  background-color: var(--fill);
   font-weight: 400;
   line-height: 1.6;
 }

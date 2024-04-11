@@ -1,0 +1,28 @@
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-column-gap: 32px;
+   grid-template-rows: 1fr;
+   height: 100%;
+   width: 100%;
+   padding: 36px 48px;
+}
+
+.historyWrapper {
+   grid-column-start: 1;
+   grid-column-end: 10;
+   border-radius: 12px;
+   box-shadow: hsla(55, 41%, 4%, 0.15) 0px 0px 5px 0px, hsla(55, 41%, 4%, 0.3) 0px 0px 1px 0px;
+   color: var(--text-strong);
+   padding: 16px 24px;
+}
+
+.participantsWrapper {
+   grid-column-start: 10;
+   grid-column-end: 13;
+   /* background-color: var(--text-strong); */
+   /* box-shadow: hsla(55, 41%, 16%, 0.5) 0px 0px 5px 0px, hsla(55, 41%, 16%, 0.5) 0px 0px 1px 0px; */
+   color: var(--fill);
+   padding: 16px 24px;
+}
+

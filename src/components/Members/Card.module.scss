@@ -1,0 +1,101 @@
+.memberCard {
+   display: flex;
+   gap: 1rem;
+
+   padding: 8px;
+   border-radius: 8px;
+   color: var(--text-strong);
+
+   transition: all 0.2s ease;
+
+   &.active {
+      padding: 16px;
+      background-color: var(--dark-fill-600);
+      color: var(--fill);
+   }
+}
+
+.memberCard:hover {
+   box-shadow: var(--dark-fill-300) 0px 1px 4px;
+}
+
+.memberAvatar {
+   min-width: 4rem;
+   min-height: 4rem;
+
+   border-radius: 50%;
+   background-color: var(--dark-fill-600);
+
+   color: var(--fill);
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 600;
+
+   &.active {
+      min-width: 5rem;
+      min-height: 5rem;
+      background-color: var(--fill);
+      color: var(--text-weak);
+      font-size: 1.6rem;
+      font-weight: 700;
+   }
+}
+
+.infoWrapper {
+   display: grid;
+
+   &.active {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+
+      width: 100%;
+   }
+}
+
+   .name {
+      align-self: center;
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      color: var(--text-strong-800);
+   
+      &.active {
+         grid-column-start: 1;
+         grid-column-end: 3;
+         grid-row-start: 1;
+         grid-row-end: 2;
+      }
+   }
+
+   .currentTask {
+
+      &.active {
+         align-self: center;
+         grid-column-start: 1;
+         grid-column-end: 3;
+         grid-row-start: 2;
+         grid-row-end: 3;
+   
+         font-size: 1.25rem;
+      }
+   }
+
+
+   .availability {
+
+      &.active {
+         align-self: center;
+         grid-column-start: 3;
+         grid-column-end: 5;
+         grid-row-start: 1;
+         grid-row-end: 2;
+   
+         font-size: 1.25rem;
+      }
+   }
+
+   .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }

@@ -11,10 +11,14 @@
 .historyWrapper {
    grid-column-start: 1;
    grid-column-end: 10;
-   border-radius: 12px;
-   box-shadow: hsla(55, 41%, 4%, 0.15) 0px 0px 5px 0px, hsla(55, 41%, 4%, 0.3) 0px 0px 1px 0px;
+   border-radius: 8px;
    color: var(--text-strong);
    padding: 16px 24px;
+
+   transition: all 0.2s ease;
+   &:hover {
+      box-shadow: hsla(55, 41%, 4%, 0.15) 0px 0px 5px 0px inset, hsla(55, 41%, 4%, 0.3) 0px 0px 1px 0px inset;
+   }
 }
 
 .participantsWrapper {
@@ -23,6 +27,6 @@
    /* background-color: var(--text-strong); */
    /* box-shadow: hsla(55, 41%, 16%, 0.5) 0px 0px 5px 0px, hsla(55, 41%, 16%, 0.5) 0px 0px 1px 0px; */
    color: var(--fill);
-   padding: 16px 24px;
+   /* padding: 16px 24px; */
 }
 

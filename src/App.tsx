@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Meeting } from './pages/Meeting';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
   return (

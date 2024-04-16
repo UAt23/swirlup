@@ -17,7 +17,7 @@ export function Meeting({ prop = "default value" }: MeetingProps) {
 				<ul className={styles.tree}>
 					<li>
 						<details open>
-							<summary>Giant planets</summary>
+							<summary>13/02/2024</summary>
 							<ul>
 								<li>
 									<details>

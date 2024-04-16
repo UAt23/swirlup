@@ -32,11 +32,11 @@ export function List({ prop = "default value" }: ListProps) {
 
 	return (
 		<div className={styles.memberList}>
-			{
-				members.map((member, index) => {
+			<div className={styles.listWrapper}>
+				{members.map((member, index) => {
 					return <Card key={index} member={member} />;
-				})
-			}
+				})}
+			</div>
 		</div>
 	);
 }

@@ -9,6 +9,7 @@ export interface MeetingProps {
 export function Meeting({ prop = "default value" }: MeetingProps) {
 	return (
 		<div className={styles.wrapper}>
+			<div className={styles.meetingBar}></div>
 			<div className={styles.historyWrapper}>
 				<ul className={styles.tree}>
 					<li>

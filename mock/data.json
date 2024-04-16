@@ -1,141 +1,207 @@
-{  
-   "meetingSettings": {
-      "duration_min": 15
-   },
-   "tags": [
-      {  
-         "id": "746583gghdfs",
-         "label": "Available",
-         "groupedBy": "0"
-      }
-   ],
-   "dailyNotes" : [
-      {
-         "member_id": "m332390pd1sk2123mf2al31ksh3d83",
-         "date": "01.02.2024",
-         "items": [
-            {
-               "type": "0",
-               "note": "Continues on developing the forms for the US1231"
-            },
-            {
-               "type": "0",
-               "note": "Needs clarification on search field validation."
-            },
-            {
-               "type": "1",
-               "tagId": "746583gghdfs"
-            }
-         ]
-      }
-   ],
+{
+	"meetingSettings": {
+		"duration_min": 15
+	},
+	"tags": [
+		{
+			"id": "746583gghdfs",
+			"label": "Available",
+			"groupedBy": "0"
+		}
+	],
+	"dailyNotes": [
+		{
+			"member_id": "m332390pd1sk2123mf2al31ksh3d83",
+			"date": "01.02.2024",
+			"items": [
+				{
+					"type": "0",
+					"note": "Continues on developing the forms for the US1231"
+				},
+				{
+					"type": "0",
+					"note": "Needs clarification on search field validation."
+				},
+				{
+					"type": "1",
+					"tagId": "746583gghdfs"
+				}
+			]
+		},
+		{
+			"member_id": "o72ks93lm9sk3n30dj8a9d02jgj3",
+			"date": "02.02.2024",
+			"items": [
+				{
+					"type": "0",
+					"note": "Completed task UK4567 ahead of schedule."
+				},
+				{
+					"type": "0",
+					"note": "Reviewed UX design for better user interaction."
+				},
+				{
+					"type": "1",
+					"tagId": "ahdh89375kjf"
+				}
+			]
+		},
+		{
+			"member_id": "p32skl83dkan390dks9fj3sk293k1",
+			"date": "03.02.2024",
+			"items": [
+				{
+					"type": "0",
+					"note": "Met with stakeholders to discuss project progress (CA7890)."
+				},
+				{
+					"type": "0",
+					"note": "Researched new technologies for upcoming features."
+				},
+				{
+					"type": "1",
+					"tagId": "sdgk9834jdf"
+				}
+			]
+		},
+		{
+			"member_id": "e91skf230snckk1232oqwnfsk1293",
+			"date": "04.02.2024",
+			"items": [
+				{
+					"type": "0",
+					"note": "Took a day off for personal errands."
+				},
+				{
+					"type": "0",
+					"note": "Will resume work on project AU2468 tomorrow."
+				}
+			]
+		},
+		{
+			"member_id": "z32mn3js9akdjm34nsl12l49jkdm3",
+			"date": "05.02.2024",
+			"items": [
+				{
+					"type": "0",
+					"note": "Fixed bugs in IN3579 module."
+				},
+				{
+					"type": "0",
+					"note": "Prepared documentation for client demo."
+				},
+				{
+					"type": "1",
+					"tagId": "oeui48734sdf"
+				}
+			]
+		}
+	],
 	"memberList": [
-		[
-			{
-				"id": "m332390pd1sk2123mf2al31ksh3d83",
-				"user_name": "Jason Cubrumber",
-				"availability": "Available",
-				"current_task": "US1231",
-            "task_status": "1"
-			},
-			{
-				"id": "o72ks93lm9sk3n30dj8a9d02jgj3",
-				"user_name": "Emily Johnson",
-				"availability": "Busy",
-				"current_task": "UK4567",
-            "task_status": "1"
-			},
-			{
-				"id": "p32skl83dkan390dks9fj3sk293k1",
-				"user_name": "Michael Smith",
-				"availability": "Available",
-				"current_task": "CA7890",
-            "task_status": "1"
-			},
-			{
-				"id": "e91skf230snckk1232oqwnfsk1293",
-				"user_name": "Sarah Brown",
-				"availability": "Away",
-				"current_task": "AU2468",
-            "task_status": "1"
-			},
-			{
-				"id": "z32mn3js9akdjm34nsl12l49jkdm3",
-				"user_name": "David Lee",
-				"availability": "Available",
-				"current_task": "IN3579",
-            "task_status": "1"
-			},
-			{
-				"id": "a02skdj3nsl102k3ndj1a9m2l3k49",
-				"user_name": "Jennifer Garcia",
-				"availability": "Busy",
-				"current_task": "FR1357",
-            "task_status": "1"
-			},
-			{
-				"id": "l23nfosjd0w9alj2039daj01lwk12",
-				"user_name": "Robert Martinez",
-				"availability": "Available",
-				"current_task": "JP8642",
-            "task_status": "1"
-			},
-			{
-				"id": "i39nakl3mnc0123okdjs91ksnfk23",
-				"user_name": "Jessica Adams",
-				"availability": "Away",
-				"current_task": "DE7531",
-            "task_status": "1"
-			},
-			{
-				"id": "u13nsm2lkdj3oqmnqwn9n3kl3n4la",
-				"user_name": "Christopher Wilson",
-				"availability": "Available",
-				"current_task": "ES4689",
-            "task_status": "1"
-			},
-			{
-				"id": "n3lakdj1jwnsm02k3jnfoskdn21k3",
-				"user_name": "Amanda Taylor",
-				"availability": "Busy",
-				"current_task": "BR9876",
-            "task_status": "1"
-			},
-			{
-				"id": "k2m3nsl12odn03n2lqwn21k3ms3l1",
-				"user_name": "Daniel Anderson",
-				"availability": "Available",
-				"current_task": "MX6543",
-            "task_status": "1"
-			},
-			{
-				"id": "c10w9qdn3lska023lmn30a9dnf2m13",
-				"user_name": "Melissa Hernandez",
-				"availability": "Away",
-				"current_task": "IT2468",
-            "task_status": "1"
-			},
-			{
-				"id": "x29ans01k3mnd3nk1n92lskdn32ls",
-				"user_name": "Matthew White",
-				"availability": "Available",
-				"current_task": "RU7531",
-            "task_status": "1"
-			},
-			{
-				"id": "f93nsl1mls3k1n02o3nms0d92n3lk",
-				"user_name": "Laura Thompson",
-				"availability": "Busy",
-				"current_task": "CN3579",
-            "task_status": "1"
-			},
-			{
-				"id": "v92m3lks10n3nk0al29d0k3nm1l3k",
-				"user_name": "Kevin Clark",
-				"availability": "Available",
-				"current_task": "KR8642",
-            "task_status": "1"
-			}
-		]
+		{
+			"id": "m332390pd1sk2123mf2al31ksh3d83",
+			"user_name": "Jason Cubrumber",
+			"availability": "Available",
+			"current_task": "US1231",
+			"task_status": "1"
+		},
+		{
+			"id": "o72ks93lm9sk3n30dj8a9d02jgj3",
+			"user_name": "Emily Johnson",
+			"availability": "Busy",
+			"current_task": "UK4567",
+			"task_status": "1"
+		},
+		{
+			"id": "p32skl83dkan390dks9fj3sk293k1",
+			"user_name": "Michael Smith",
+			"availability": "Available",
+			"current_task": "CA7890",
+			"task_status": "1"
+		},
+		{
+			"id": "e91skf230snckk1232oqwnfsk1293",
+			"user_name": "Sarah Brown",
+			"availability": "Away",
+			"current_task": "AU2468",
+			"task_status": "1"
+		},
+		{
+			"id": "z32mn3js9akdjm34nsl12l49jkdm3",
+			"user_name": "David Lee",
+			"availability": "Available",
+			"current_task": "IN3579",
+			"task_status": "1"
+		},
+		{
+			"id": "a02skdj3nsl102k3ndj1a9m2l3k49",
+			"user_name": "Jennifer Garcia",
+			"availability": "Busy",
+			"current_task": "FR1357",
+			"task_status": "1"
+		},
+		{
+			"id": "l23nfosjd0w9alj2039daj01lwk12",
+			"user_name": "Robert Martinez",
+			"availability": "Available",
+			"current_task": "JP8642",
+			"task_status": "1"
+		},
+		{
+			"id": "i39nakl3mnc0123okdjs91ksnfk23",
+			"user_name": "Jessica Adams",
+			"availability": "Away",
+			"current_task": "DE7531",
+			"task_status": "1"
+		},
+		{
+			"id": "u13nsm2lkdj3oqmnqwn9n3kl3n4la",
+			"user_name": "Christopher Wilson",
+			"availability": "Available",
+			"current_task": "ES4689",
+			"task_status": "1"
+		},
+		{
+			"id": "n3lakdj1jwnsm02k3jnfoskdn21k3",
+			"user_name": "Amanda Taylor",
+			"availability": "Busy",
+			"current_task": "BR9876",
+			"task_status": "1"
+		},
+		{
+			"id": "k2m3nsl12odn03n2lqwn21k3ms3l1",
+			"user_name": "Daniel Anderson",
+			"availability": "Available",
+			"current_task": "MX6543",
+			"task_status": "1"
+		},
+		{
+			"id": "c10w9qdn3lska023lmn30a9dnf2m13",
+			"user_name": "Melissa Hernandez",
+			"availability": "Away",
+			"current_task": "IT2468",
+			"task_status": "1"
+		},
+		{
+			"id": "x29ans01k3mnd3nk1n92lskdn32ls",
+			"user_name": "Matthew White",
+			"availability": "Available",
+			"current_task": "RU7531",
+			"task_status": "1"
+		},
+		{
+			"id": "f93nsl1mls3k1n02o3nms0d92n3lk",
+			"user_name": "Laura Thompson",
+			"availability": "Busy",
+			"current_task": "CN3579",
+			"task_status": "1"
+		},
+		{
+			"id": "v92m3lks10n3nk0al29d0k3nm1l3k",
+			"user_name": "Kevin Clark",
+			"availability": "Available",
+			"current_task": "KR8642",
+			"task_status": "1"
+		}
 	]
 }

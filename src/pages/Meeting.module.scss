@@ -2,8 +2,8 @@
    display: grid;
    grid-template-columns: repeat(12, 1fr);
    grid-column-gap: 32px;
-   grid-template-rows: 1fr;
-   height: 100%;
+   grid-template-rows: 100% 1fr;
+   height: calc(100vh - 5rem);
    width: 100%;
    padding: 36px 100px;
 }
@@ -28,6 +28,8 @@
    grid-column-start: 10;
    grid-column-end: 13;
    color: var(--fill);
+   height: 100%;
+   overflow-y: auto;
 }
 
 .tree {

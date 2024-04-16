@@ -1,0 +1,119 @@
+{
+  "uuid": "66e23953-e79a-4829-9fde-9a8a4b7f1942",
+  "lastMigration": 32,
+  "name": "Mockoon",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "1fa0d476-7dea-40c4-9df2-0d48064ba1f4",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "memberList",
+      "responses": [
+        {
+          "uuid": "eda71381-bd19-46e2-98f9-cffd2bee7272",
+          "body": "[\r\n\t\t{\r\n\t\t\t\"id\": \"m332390pd1sk2123mf2al31ksh3d83\",\r\n\t\t\t\"user_name\": \"Jason Cubrumber\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"US1231\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"o72ks93lm9sk3n30dj8a9d02jgj3\",\r\n\t\t\t\"user_name\": \"Emily Johnson\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"UK4567\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"p32skl83dkan390dks9fj3sk293k1\",\r\n\t\t\t\"user_name\": \"Michael Smith\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"CA7890\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"e91skf230snckk1232oqwnfsk1293\",\r\n\t\t\t\"user_name\": \"Sarah Brown\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"AU2468\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"z32mn3js9akdjm34nsl12l49jkdm3\",\r\n\t\t\t\"user_name\": \"David Lee\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"IN3579\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"a02skdj3nsl102k3ndj1a9m2l3k49\",\r\n\t\t\t\"user_name\": \"Jennifer Garcia\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"FR1357\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"l23nfosjd0w9alj2039daj01lwk12\",\r\n\t\t\t\"user_name\": \"Robert Martinez\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"JP8642\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"i39nakl3mnc0123okdjs91ksnfk23\",\r\n\t\t\t\"user_name\": \"Jessica Adams\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"DE7531\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"u13nsm2lkdj3oqmnqwn9n3kl3n4la\",\r\n\t\t\t\"user_name\": \"Christopher Wilson\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"ES4689\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"n3lakdj1jwnsm02k3jnfoskdn21k3\",\r\n\t\t\t\"user_name\": \"Amanda Taylor\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"BR9876\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"k2m3nsl12odn03n2lqwn21k3ms3l1\",\r\n\t\t\t\"user_name\": \"Daniel Anderson\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"MX6543\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"c10w9qdn3lska023lmn30a9dnf2m13\",\r\n\t\t\t\"user_name\": \"Melissa Hernandez\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"IT2468\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"x29ans01k3mnd3nk1n92lskdn32ls\",\r\n\t\t\t\"user_name\": \"Matthew White\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"RU7531\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"f93nsl1mls3k1n02o3nms0d92n3lk\",\r\n\t\t\t\"user_name\": \"Laura Thompson\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"CN3579\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"v92m3lks10n3nk0al29d0k3nm1l3k\",\r\n\t\t\t\"user_name\": \"Kevin Clark\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"KR8642\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t}\r\n\t]",
+          "latency": 500,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "q9cl",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "1fa0d476-7dea-40c4-9df2-0d48064ba1f4"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "4a123fcf-4017-4f95-9283-2764eb49bf4f",
+      "id": "q9cl",
+      "name": "memberList",
+      "documentation": "",
+      "value": "[\r\n\t\t{\r\n\t\t\t\"id\": \"m332390pd1sk2123mf2al31ksh3d83\",\r\n\t\t\t\"user_name\": \"Jason Cubrumber\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"US1231\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"o72ks93lm9sk3n30dj8a9d02jgj3\",\r\n\t\t\t\"user_name\": \"Emily Johnson\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"UK4567\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"p32skl83dkan390dks9fj3sk293k1\",\r\n\t\t\t\"user_name\": \"Michael Smith\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"CA7890\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"e91skf230snckk1232oqwnfsk1293\",\r\n\t\t\t\"user_name\": \"Sarah Brown\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"AU2468\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"z32mn3js9akdjm34nsl12l49jkdm3\",\r\n\t\t\t\"user_name\": \"David Lee\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"IN3579\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"a02skdj3nsl102k3ndj1a9m2l3k49\",\r\n\t\t\t\"user_name\": \"Jennifer Garcia\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"FR1357\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"l23nfosjd0w9alj2039daj01lwk12\",\r\n\t\t\t\"user_name\": \"Robert Martinez\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"JP8642\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"i39nakl3mnc0123okdjs91ksnfk23\",\r\n\t\t\t\"user_name\": \"Jessica Adams\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"DE7531\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"u13nsm2lkdj3oqmnqwn9n3kl3n4la\",\r\n\t\t\t\"user_name\": \"Christopher Wilson\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"ES4689\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"n3lakdj1jwnsm02k3jnfoskdn21k3\",\r\n\t\t\t\"user_name\": \"Amanda Taylor\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"BR9876\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"k2m3nsl12odn03n2lqwn21k3ms3l1\",\r\n\t\t\t\"user_name\": \"Daniel Anderson\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"MX6543\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"c10w9qdn3lska023lmn30a9dnf2m13\",\r\n\t\t\t\"user_name\": \"Melissa Hernandez\",\r\n\t\t\t\"availability\": \"Away\",\r\n\t\t\t\"current_task\": \"IT2468\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"x29ans01k3mnd3nk1n92lskdn32ls\",\r\n\t\t\t\"user_name\": \"Matthew White\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"RU7531\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"f93nsl1mls3k1n02o3nms0d92n3lk\",\r\n\t\t\t\"user_name\": \"Laura Thompson\",\r\n\t\t\t\"availability\": \"Busy\",\r\n\t\t\t\"current_task\": \"CN3579\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"v92m3lks10n3nk0al29d0k3nm1l3k\",\r\n\t\t\t\"user_name\": \"Kevin Clark\",\r\n\t\t\t\"availability\": \"Available\",\r\n\t\t\t\"current_task\": \"KR8642\",\r\n\t\t\t\"task_status\": \"1\"\r\n\t\t}\r\n\t]"
+    },
+    {
+      "uuid": "016e95d1-6e80-44cf-873c-7d50ae39ce73",
+      "id": "05t8",
+      "name": "dailyNotes",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"member_id\": \"m332390pd1sk2123mf2al31ksh3d83\",\r\n    \"date\": \"01.02.2024\",\r\n    \"items\": [\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Continues on developing the forms for the US1231\"\r\n      },\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Needs clarification on search field validation.\"\r\n      },\r\n      {\r\n        \"type\": \"1\",\r\n        \"tagId\": \"746583gghdfs\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"member_id\": \"o72ks93lm9sk3n30dj8a9d02jgj3\",\r\n    \"date\": \"02.02.2024\",\r\n    \"items\": [\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Completed task UK4567 ahead of schedule.\"\r\n      },\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Reviewed UX design for better user interaction.\"\r\n      },\r\n      {\r\n        \"type\": \"1\",\r\n        \"tagId\": \"ahdh89375kjf\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"member_id\": \"p32skl83dkan390dks9fj3sk293k1\",\r\n    \"date\": \"03.02.2024\",\r\n    \"items\": [\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Met with stakeholders to discuss project progress (CA7890).\"\r\n      },\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Researched new technologies for upcoming features.\"\r\n      },\r\n      {\r\n        \"type\": \"1\",\r\n        \"tagId\": \"sdgk9834jdf\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"member_id\": \"e91skf230snckk1232oqwnfsk1293\",\r\n    \"date\": \"04.02.2024\",\r\n    \"items\": [\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Took a day off for personal errands.\"\r\n      },\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Will resume work on project AU2468 tomorrow.\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"member_id\": \"z32mn3js9akdjm34nsl12l49jkdm3\",\r\n    \"date\": \"05.02.2024\",\r\n    \"items\": [\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Fixed bugs in IN3579 module.\"\r\n      },\r\n      {\r\n        \"type\": \"0\",\r\n        \"note\": \"Prepared documentation for client demo.\"\r\n      },\r\n      {\r\n        \"type\": \"1\",\r\n        \"tagId\": \"oeui48734sdf\"\r\n      }\r\n    ]\r\n  }\r\n]\r\n"
+    },
+    {
+      "uuid": "ceb67264-07c5-472c-8643-849273a0d47d",
+      "id": "hzzb",
+      "name": "tags",
+      "documentation": "",
+      "value": "[\r\n\t\t{\r\n\t\t\t\"id\": \"746583gghdfs\",\r\n\t\t\t\"label\": \"Available\",\r\n\t\t\t\"groupedBy\": \"0\"\r\n\t\t}\r\n]"
+    }
+  ],
+  "callbacks": []
+}

@@ -8,6 +8,9 @@
   --stroke-weak: hsla(52, 37%, 80%, 1);
   --stroke-strong: hsla(53, 30%, 52%, 1);
   --stroke-light: hsla(55 ,9% ,75%, 1);
+  --stroke-light-800: hsla(55 ,9% ,75%, 0.8);
+  --stroke-light-colored: hsla(55 ,7% ,65%, 1);
+  --stroke-light-colored-800: hsla(55 ,7% ,65%, 0.8);
   --stroke-dark: hsla(55, 41%, 4%, 1);
   --stroke-dark-150: hsla(55, 41%, 4%, 0.15);
   --stroke-dark-250: hsla(55, 41%, 4%, 0.25);
@@ -42,4 +45,24 @@ body {
 input:focus {
   outline: none;
   background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--stroke-light-800);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--stroke-light-colored-800);
 }

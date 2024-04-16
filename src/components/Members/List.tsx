@@ -11,12 +11,6 @@ export interface ListProps {
 export function List({ prop = "default value" }: ListProps) {
 	const [members, setMembers] = useState<Array<MemberModel>>([]);
 
-	const Members = () => {
-		return members.map((member) => {
-			return <Card member={member} />;
-		});
-	};
-
 	useEffect(() => {
 		async function getMembers() {
 			try {

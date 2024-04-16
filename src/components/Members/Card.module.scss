@@ -3,20 +3,26 @@
    gap: 1rem;
 
    padding: 8px;
-   border-radius: 8px;
+   box-sizing: border-box;
    color: var(--text-strong);
+   border-color: var(--weak-fill-250);
+   border-style: inset;
+   border-width: 0;
+   border-radius: 0.4rem;
 
-   transition: all 0.2s ease;
+   transition: all 150ms ease;
+   
+   &:hover {
+      box-shadow: var(--weak-fill-250) 0px 0px 10px 0px, var(--weak-fill-600) 0px 3px 6px 0px;
+      
+   }
 
    &.active {
       padding: 16px;
       background-color: var(--dark-fill-600);
       color: var(--fill);
+      
    }
-}
-
-.memberCard:hover {
-   box-shadow: var(--weak-fill-250) 0px 0px 10px 0px, var(--weak-fill-600) 0px 0px 6px 0px;
 }
 
 .memberAvatar {

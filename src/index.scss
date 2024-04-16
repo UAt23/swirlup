@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --background: hsla(0, 0%, 100%, 1);
@@ -39,7 +40,8 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   color: var(--text-strong);
   background-color: var(--fill);
   font-weight: 400;

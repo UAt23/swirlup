@@ -7,10 +7,21 @@
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(4, 1fr);
 
-   .totalDuration {
-      grid-column-start: 1;
-      grid-column-end: 4;
+   .totalDuration, .participantDuration {
+      grid-column-start: 5;
+      grid-column-end: 9;
+      justify-self: center;
       font-family: "Kode Mono", monospace;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+   }
+
+   .totalDuration {
+      grid-row-start: 1;
+      grid-row-end: 3;
+   }
+   
+   .participantDuration {
+      grid-row-start: 3;
+      grid-row-end: 5;
    }
 }

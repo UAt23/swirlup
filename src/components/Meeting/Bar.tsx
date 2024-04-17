@@ -7,7 +7,7 @@ export interface BarProps {
 }
 
 export function Bar({ prop = "default value" }: BarProps) {
-	const { timeLeft, exceededTime, isTimeExceed, startTimer, stopTimer } = UseCountdown(1);
+	const { timeLeft, exceededTime, isTimeExceed, startTimer, stopTimer, resetTimer } = UseCountdown(15);
 
 	const handleStart = () => {
 		startTimer();
@@ -16,11 +16,18 @@ export function Bar({ prop = "default value" }: BarProps) {
 	const handleStop = () => {
 		stopTimer();
 	};
+	
+   const handleReset = () => {
+		stopTimer();
+	};
 
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.totalDuration}>
-				<p>{`${15} min / ${isTimeExceed ? exceededTime : timeLeft} min`}</p>
+				<p>{`${15} min / ${isTimeExceed ? -exceededTime : timeLeft} min`}</p>
+			</div>
+			<div className={styles.participantDuration}>
+				<p>{`${isTimeExceed ? -exceededTime : timeLeft} min`}</p>
 			</div>
 		</div>
 	);
